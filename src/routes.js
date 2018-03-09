@@ -20,8 +20,8 @@ export default function Router() {
                 props.match
                     ? <Archive /> : <BlankPage />
             )} />
-
-            <Route path="/archive" component={Archive} />
+            {/* 42J */}
+            <Route path="/archive/:id" component={Archive} />
         </Switch >
 
     )
