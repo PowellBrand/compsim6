@@ -31,8 +31,8 @@ class Landing extends Component {
     componentDidMount() {
         this.countAgain(this.setState({
             count: 5
-        }), _ => {
-            return 
+        }), ()=> {
+            return "Count up" 
         })
 
     }

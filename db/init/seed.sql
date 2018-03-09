@@ -13,6 +13,12 @@ create table books (
         foreign key (locationid) references books(id) 
     )
 
+-- 67G
+    create table library(
+        locationid int unique,
+        name text,
+    )
+
     -- 107E
     alter table books 
     rename to availablebooks
